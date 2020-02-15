@@ -1,0 +1,41 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-02-14 16:18:49
+ * @LastEditTime : 2020-02-15 00:29:16
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \test\builder-form\index.html
+ -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.contain {
+				width: 400px;
+				min-height: 200px;
+				max-height: 500px;
+				padding: 3px;
+				border: 1px solid #a0b3d6;
+				font-size: 12px;
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form action="#" id="form">
+			<div>姓名：<input type="text" name="name" autofocus /></div>
+			<div>
+				<input type="radio" value="男" name="gender" checked />男
+				<input type="radio" value="女" name="gender" />女
+			</div>
+			<div>年龄：<input type="number" name="age" /></div>
+			<button type="submit">提交</button>
+		</form>
+	</body>
+	<script src="./index.js"></script>
+</html>
