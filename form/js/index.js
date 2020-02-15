@@ -43,13 +43,13 @@ function init() {
 	console.log(student);
 }
 
-// const oDebounce = debounce(init, 1000); //修饰
+// const oDebounce = debounce(init, 1000); //防抖
 // form.addEventListener("submit", e => {
 // 	let ev = e || window.event;
 // 	ev.preventDefault();
 // 	oDebounce();
 // });
-const oThrottle = throttle(init, 1000); //修饰
+const oThrottle = throttle(init, 1000); //节流
 form.addEventListener("submit", e => {
 	let ev = e || window.event;
 	ev.preventDefault();
