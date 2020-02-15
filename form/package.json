@@ -1,0 +1,16 @@
+{
+	"name": "form",
+	"version": "1.0.0",
+	"private": true,
+	"description": "",
+	"scripts": {
+		"bundle": "webpack"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"webpack": "^4.41.6",
+		"webpack-cli": "^3.3.11"
+	}
+}
